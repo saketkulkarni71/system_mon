@@ -2,6 +2,8 @@
 
 This is a lightweight system monitoring tool built in Python that tracks CPU, memory, and disk usage and takes action when thresholds are exceeded.
 
+Implemented on Amazon Linux (EC2)
+
 ## Features
 
 - Monitors CPU, memory, disk, and uptime
