@@ -36,3 +36,17 @@ python3 usage_percentage.py
 
 cat system_monitoring.log - lists all the logs
 tail -f system_monitoring.log - lists the latest logs only
+
+
+## Testing
+
+To simulate high CPU usage and test the alert system, run this command in a separate terminal window:
+
+```bash
+yes > /dev/null &
+
+To stop it, run: 
+
+```bash
+killall yes
+
